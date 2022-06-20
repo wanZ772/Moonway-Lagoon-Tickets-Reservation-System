@@ -1,5 +1,6 @@
 // coded by WanZ
 
+
 #include <iostream>
 #include <string>
 
