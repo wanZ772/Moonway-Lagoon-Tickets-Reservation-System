@@ -30,13 +30,15 @@ int main()
        
        if (adults == 2 && kids == 2)    {
            
-           family = true;
+           family = 1;
            
+       }    else    {
+           family = 0;
        }
        
        switch (category)    {
            case 1:
-            if (family) {
+            if (family == true) {
                 if (citizenship == 1)   {
                     cout << "Tickets price: RM100";
                 }   else    {
@@ -45,10 +47,10 @@ int main()
                 }   else  {
                     if (citizenship == 1)   {
                         price = (40 * kids) + (75 * adults);
-                        cout << tickets;
+                        cout << tickets << price;
                     }   else    {
                         price = (50 * kids) + (85 * adults);
-                        cout << tickets;
+                        cout << tickets << price;
                     }
                 }
             break;
