@@ -29,9 +29,7 @@ int main()
        cin >> citizenship;
        
        if (adults == 2 && kids == 2)    {
-           
            family = 1;
-           
        }    else    {
            family = 0;
        }
@@ -64,10 +62,10 @@ int main()
                 }   else    {
                     if (citizenship == 1)   {
                         price = (60 * kids) + (120 * adults);
-                        cout << tickets;
+                        cout << tickets << price; 
                     }   else    {
                         price = (80 * kids) + (150 * adults);
-                        cout << tickets;
+                        cout << tickets << price;
                     }
                 }
             break;
