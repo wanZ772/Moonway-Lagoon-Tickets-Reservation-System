@@ -2,6 +2,7 @@
 // logical error fixed
 // 0 error, 0 warning
 // clean code
+// unused data removed
 
 #include <iostream>
 #include <cstring>
