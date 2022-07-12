@@ -14,7 +14,7 @@ string park[4] = {"null", "Theme Park", "Water Park", "Theme & Water Park"}; // 
 	string city[3] = {"null", "Malaysian", "Non-Malaysian"}; // array for citizenship
 	
 int calcPrice(int category, int citizenship, int family, int kids, int adults)    {
-    int price, local_tp_price[4] = {0,40,75,100}, global_tp_price[4] = {0,50,85,120}, local_wp_price[4] = {0,60,120,150}, global_wp_price[4] = {0,80,150,200};
+    int price;
     switch (citizenship)   {
         case 1:
             switch(category)    {
